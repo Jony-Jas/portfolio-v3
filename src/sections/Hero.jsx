@@ -18,7 +18,7 @@ const Hero = () => {
   const sizes = calculateSizes(isMobile);
 
   return (
-    <section className="min-h-screen w-full flex flex-row">
+    <section className="min-h-screen w-full flex flex-row" id='home'>
       {/* Left Section */}
       <div className="md:w-2/5 w-full sm:flex justify-center items-center sm:mt-20 mt-20 c-space">
         <div className="w-full mx-auto flex flex-col">

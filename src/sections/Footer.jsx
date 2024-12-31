@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
       <div className="text-white-500 flex gap-2">
-        <a href="https://jonyjas.com/" target="_blank">
+        <a href="https://v2.jonyjas.com/" target="_blank">
           Version (v2)
         </a>
         <p>|</p>
