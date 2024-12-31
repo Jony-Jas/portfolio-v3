@@ -35,11 +35,13 @@ const Hero = () => {
             matter the scale. Dedicated to building a better future through
             technology while enhancing personal development. 📈
           </span>
-          <Button
-            name="Resume"
-            isBeam
-            containerClass="sm:w-fit w-full sm:min-w-56 sm:mt-22 mt-10 !mx-0"
-          />
+          <a href="https://drive.google.com/drive/folders/1e0uszNDE9vHSzCMQF5WhrKQUZ-xdCrLA?usp=drive_link" target="_blank">
+            <Button
+              name="Resume"
+              isBeam
+              containerClass="sm:w-fit w-full sm:min-w-56 sm:mt-22 mt-10 !mx-0"
+            />
+          </a>
 
           <div className="flex gap-3 justify-self-end mt-10">
             <div className="social-icon">
