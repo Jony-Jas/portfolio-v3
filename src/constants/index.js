@@ -23,6 +23,43 @@ export const navLinks = [
 
 export const myProjects = [
   {
+    title: "Nexus Arcade",
+    desc: "A modular gaming platform where users can seamlessly purchase and play games!",
+    subdesc:
+      "Built with a microfrontend architecture using Webpack Module Federation, Nexus Arcade dynamically loads third-party games into the platform. 🧩",
+    href: "https://github.com/Jony-Jas/nexus-arcade",
+    texture: "/textures/project/project0.mp4",
+    logo: "/assets/project-logo0.png",
+    logoStyle: {
+      backgroundColor: "rgb(23 22 42)",
+      border: "0.2px solid rgb(29 30 54)",
+      boxShadow: "rgb(53 48 170 / 30%) 0px 0px 60px 0px",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "Angular",
+        path: "/assets/angular.png",
+      },
+      {
+        id: 2,
+        name: "Nx",
+        path: "assets/nx.png",
+      },
+      {
+        id: 3,
+        name: "Webpack",
+        path: "/assets/webpack.png",
+      },
+      {
+        id: 4,
+        name: "NestJS",
+        path: "/assets/nestjs.png",
+      },
+    ],
+  },
+  {
     title: "NgRatingPro",
     desc: "A powerful and customizable Angular rating component that allows full and half ratings with support for read-only mode, dynamic scaling, and SVG customization.",
     subdesc:
@@ -51,7 +88,7 @@ export const myProjects = [
         id: 3,
         name: "TypeScript",
         path: "/assets/typescript.png",
-      }
+      },
     ],
   },
   {
@@ -166,7 +203,7 @@ export const myProjects = [
         path: "/assets/polygon.png",
       },
     ],
-  }
+  },
 ];
 
 export const calculateSizes = (isMobile) => {
